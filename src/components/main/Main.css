@@ -79,6 +79,7 @@
     transition: 0.8s;
     background-position: center;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .upload-btn:hover {
