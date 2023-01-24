@@ -19,7 +19,7 @@ const PredictButton = () => {
             method: 'POST',
             body: formData,
         };
-        await fetch('https://ad0f-35-238-228-187.ngrok.io/uploadfile', requestOptions);
+        await fetch('http://34.131.94.189/uploadfile', requestOptions);
         // const data = await resp.json();
     }
     const handlePredict = async () => {
@@ -28,7 +28,7 @@ const PredictButton = () => {
         const requestOptions = {
             method: 'GET',
         };
-        const resp = await fetch(`https://ad0f-35-238-228-187.ngrok.io/predict/?filename=${selectedFile.name}`, requestOptions);
+        const resp = await fetch(`http://34.131.94.189/predict/?filename=${selectedFile.name}`, requestOptions);
         const data = await resp.json();
         setPred(data["Prediction"]);
         console.log(data);
