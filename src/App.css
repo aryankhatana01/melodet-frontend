@@ -1,13 +1,9 @@
-body {
+html, body {
     background-color: #2C2C2C;
     width: 100%;
-}
-
-html {
-  width: 100%;
-  overflow-x: hidden !important;
-  margin: 0;
-  padding: 0;
+    overflow-x: hidden !important;
+    margin: 0;
+    padding: 0;
 }
 
 .App {
